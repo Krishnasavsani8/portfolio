@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    padding: 3.5vh ;
+    background-color: black;
+    background: linear-gradient(160deg,black 60%,orange 40%);
+}
+.navbar a {
+    color: rgb(201, 199, 182);
+    text-decoration: none;
+    margin: 3vh;
+    font-size: 4vh;
+}
+.image p{
+    animation: text 2s 1; 
+    position: absolute;
+    margin-top: -100vh;
+    margin-left: 1vh ;
+    font-size: xxx-large;
+}
+.image img{
+    opacity: 50%;
+}
+.image{
+    padding-left: 17vw;
+    padding-right: 17vw;
+}
+
+@keyframes text {
+ 0% {
+     color: black;
+     margin-bottom: -40px;
+ }
+
+ 30% {
+     letter-spacing: 25px;
+     margin-bottom: -40px;
+ }
+
+ /* 85% {
+     letter-spacing: 8px;
+     margin-bottom: -40px;
+ } */
+}
